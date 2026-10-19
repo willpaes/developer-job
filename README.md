@@ -1,44 +1,59 @@
-# Timmy Status Checker
+# 👨‍💻 Timmy Profile Checker 🐎
 
-A concise JavaScript script that demonstrates basic boolean checks and conditional logic. This repository contains a short program that reports Timmy’s employment status, hobby, and whether he is old enough to drive.
+A beginner-friendly JavaScript exercise showcasing basic decision-making logic and program flow. A simple JavaScript program that demonstrates the use of **variables**, **conditional statements (`if` / `else`)**, and **boolean logic** to display information about Timmy.
 
-## Features
+## 📋 Overview
 
-- Prints a message when Timmy has a developer job.
-Prerequisites
-Node.js installed (v12+ recommended)
-Terminal / command prompt access
-How to get the project
-If you already have a repository:
+This project evaluates several characteristics about Timmy and prints messages to the console based on predefined conditions:
 
-### How to install?
-Clone it: git clone https://github.com/<your-username>/<your-repo>.git cd <your-repo>
-To create the project locally:
+- ✅ Checks if Timmy is employed as a developer;
+- 🎮 Checks whether Timmy is a gamer;
+- 🚗 Determines if Timmy is old enough to drive.
 
-In a terminal: mkdir timmy-status-checker cd timmy-status-checker
-Create index.js and paste the code above.
-How to run
-From the project folder, run: node index.js
+## 🚀 Features
 
-### Expected output
-Given the values in the script (hasDeveloperJob = true, isTimmyAGamer = false, timmyAge = 13), the console output will be:
+- ✅️ Developer Status Check: Determines whether Timmy currently works as a developer;
 
-Timmy is employed as a developer. Timmy is not old enough to drive.
+- ✅️ Gaming Interest Check: Verifies if Timmy enjoys gaming and displays a message when the condition is true;
 
-(The gamer message is omitted because isTimmyAGamer is false.)
+- ✅️ Driving Eligibility Check: Compares Timmy's age against the minimum driving age requirement and outputs the appropriate result.
 
-### Technologies Used
 
-🔵 JavaScript (ES6+)
+### 📊 Output
 
-🟡 Node.js
+With the values currently defined in the code, the console will display:
 
-## Author
+Timmy is employed as a developer.
+Timmy is not old enough to drive.
+
+
+> The gaming message is not displayed because `isTimmyAGamer` is set to `false`.
+
+### 🛠️ Technologies Used
+
+🔵 JavaScript (ES6+);
+
+🟡 Node.js (optional for execution).
+
+### ▶️ Running the Project
+
+1. Save the code in a file named `index.js`
+2. Open a terminal in the project directory
+3. Run:
+
+node index.js
+
+### ⚙️ How to clone?
+git clone https://github.com/willpaes/developer-job.git 
+
+cd developer-job
+
+## 👤 Author
 
 Developed by Fabio William
 
 [LinkedIn](https://www.linkedin.com/in/fabio-william-paes-lima-4b31751b4) | [GitHub](https://github.com/willpaes)
 
-## 📝 License
+### 📝 License
 
 This project is open source and available under the MIT License.
